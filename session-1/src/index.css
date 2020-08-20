@@ -12,6 +12,235 @@ code {
     monospace;
 }
 
-.text-red {
-  color: red;
+body .container{
+  max-width: 480px;
+  overflow: hidden;
+  margin: 0 auto;
 }
+
+.header-link {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.banner-top img {
+  max-width: 100%;
+}
+
+.header-link a {
+  color: #000000;
+  text-decoration: unset;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.logo-wrap {
+  padding: 15px;
+}
+
+.logo-wrap img{
+  width: 215px;
+}
+
+.home-link {
+  padding: 15px;
+  float: left;
+}
+
+.cart-link {
+  float: right;
+  padding: 15px;
+}
+
+.cart-link img {
+  width: 20px;
+}
+
+.banner-top {
+  margin-top: 20px;
+}
+
+.category-product h1 {
+  text-align: center;
+  border-top: 1px solid #dfe6e9;
+  padding-top: 20px;
+}
+
+.product-list{
+  width: 50%;
+  font-size: 0px;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.product-list .product-image img{
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.product-name {
+  font-size: 12px;
+  text-align: center;
+  font-style: italic;
+}
+
+.product-info .price {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product-info .view {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product-info .view a {
+  color: #000000;
+}
+
+.view-more {
+  text-align: center;
+  display: block;
+}
+
+.view-more a {
+  color: #000;
+}
+
+.category-product {
+  padding-bottom: 50px;
+}
+
+.footer {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.footer .logo {
+  margin-bottom: 20px;
+}
+
+.footer .logo img {
+  width: 140px;
+  margin: 0 auto;
+}
+
+.footer-link .link {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.product-page .name{
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+}
+
+.product-page .sku {
+  font-size: 12px;
+  text-align: center;
+}
+
+.product-page {
+  padding-bottom: 80px;
+}
+
+.product-page .price {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.action-secondary {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.plus-button {
+  cursor: pointer;
+}
+
+.minus-button{
+  cursor: pointer;
+}
+
+.action-secondary span {
+  padding: 0 10px;
+}
+
+.action-primary {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.action-primary a {
+  color: #000000;
+  font-size: 20px;
+}
+
+.description {
+  margin-top: 60px;
+}
+
+.description .title {
+  font-style: italic;
+}
+
+.cart-page .title {
+  padding: 0 15px;
+}
+
+.cart-page .item{
+  clear: both;
+  padding: 0 15px;
+  border-top: 1px solid #f2f2f2;
+}
+
+.cart-page .images{
+  float: left;
+  width: 20%;
+}
+
+.cart-page .images img {
+  max-width: 100%;
+}
+
+.cart-page .info{
+  float: left;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.cart-page .subtotal {
+  float: right;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.cart-page .product-name {
+  text-align: left;
+  font-size: 16px;
+}
+
+.cart-page .grand-total {
+  clear: both;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px 15px;
+  border-top: 2px solid #f2f2f2;
+}
+
+.cart-page .grand-total .price {
+  margin-left: 60px;
+}
+
